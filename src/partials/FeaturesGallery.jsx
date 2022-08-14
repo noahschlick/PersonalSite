@@ -21,7 +21,7 @@ function FeaturesGallery() {
 
           
 
-          {/* Images grid
+          {/* Images grid 
           <div className="grid grid-cols-12 gap-3 mt-12 md:mt-20" data-aos-id-gallery>
             <img className="col-span-4" src={AboutImage01} width="360" height="270" alt="About grid 01" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" />
             <img className="col-span-3" src={AboutImage02} width="270" height="270" alt="About grid 02" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" data-aos-delay="100" />
@@ -29,8 +29,8 @@ function FeaturesGallery() {
             <img className="col-span-3" src={AboutImage04} width="270" height="270" alt="About grid 04" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" data-aos-delay="300" />
             <img className="col-span-5" src={AboutImage05} width="450" height="270" alt="About grid 05" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" data-aos-delay="400" />
             <img className="col-span-4" src={AboutImage06} width="360" height="270" alt="About grid 06" data-aos="fade-down" data-aos-anchor="[data-aos-id-gallery]" data-aos-delay="500" />
-          </div> */}
-
+          </div>
+*/}
         </div>
       </div>
     </section>

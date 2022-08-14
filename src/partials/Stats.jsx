@@ -17,7 +17,7 @@ function Stats() {
             {/* 2nd item */}
             <div className="bg-white dark:bg-gray-800 py-8 px-1 shadow-2xl" data-aos="fade-down" data-aos-anchor="[data-aos-id-stats]" data-aos-delay="100">
               <div className="font-red-hat-display text-2xl font-extrabold tracking-tighter mb-1">UI/UX Designer</div>
-              <div className="text-gray-600 dark:text-gray-400">3 Years Experience of creating different designing web and mobile applications.</div>
+              <div className="text-gray-600 dark:text-gray-400">3 Years experience of creating different designing web and mobile applications.</div>
             </div>
             {/* 3rd item */}
             <div className="bg-white dark:bg-gray-800 py-8 px-1 shadow-2xl" data-aos="fade-down" data-aos-anchor="[data-aos-id-stats]" data-aos-delay="200">
