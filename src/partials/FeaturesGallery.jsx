@@ -15,7 +15,7 @@ function FeaturesGallery() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-red-hat-display mb-4">I can turn your ideas into reality through IT solutions.</h2>
+            <h2 className="h2 font-red-hat-display mb-4">I can turn your ideas into reality with my knowledge and wisdom in tech.</h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">Ever since I started programming, I have been obsessed with creating new applications that can contribute to the world. If you are in need of a developer that can help put your companies ideas into fruition, feel free to contact me. I would be happy to help.</p>
           </div>
 
