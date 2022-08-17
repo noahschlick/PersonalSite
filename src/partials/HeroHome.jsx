@@ -8,7 +8,7 @@ import Guy from '../images/MachoMan.png';
 import { DownloadIcon } from '@heroicons/react/solid'
 
 import resume from '../images/Resume.pdf'
-
+import { TypeAnimation } from 'react-type-animation';
 
 
 
@@ -42,9 +42,49 @@ function HeroHome() {
             {/* Content */}
             <div className="md:col-span-7 lg:col-span-7 mb-8 md:mb-0 text-center md:text-left">
               <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-extrabold" data-aos="fade-down">Noah Schlickeisen</h1>
-              <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">
-                I didn't create the web. I just make it better.
-              </p>
+              <div className='flex'>
+                
+                <div className="mr-2">
+                  
+               
+                <TypeAnimation
+                  sequence={[
+                    'I ', // Types 'One'
+                    
+                  () => {
+                    console.log('Done typing!'); // Place optional callbacks anywhere in the array
+                  }
+                  ]}
+                  cursor={false}
+                  style={{ fontSize: '2em' }}
+                 
+                />
+                 </div>
+                <TypeAnimation
+              
+                  sequence={[
+                    ' am a web developer.', // Types 'One'
+                    1000, // Waits 1s
+                    ' am a mobile developer.', // Deletes 'One' and types 'Two'
+                    2000, // Waits 2s
+                    ' am a software developer.', // Types 'Three' without deleting 'Two'
+                    2000, // Waits 2s
+                    ' do backend.', // Types 'Three' without deleting 'Two'
+                    2000, // Waits 2s
+                    ' do frontend.', // Types 'Three' without deleting 'Two'
+                    2000, // Waits 2s
+                    ' am awsome!', // Types 'Three' without deleting 'Two'
+                    2000, // Waits 2s
+                  () => {
+                    console.log('Done typing!'); // Place optional callbacks anywhere in the array
+                  }
+                  ]}
+                  wrapper="div"
+                  cursor={true}
+                  repeat={Infinity}
+                  style={{ fontSize: '2em' }}
+                />
+              </div>
               {/* CTA form */}
               
                <div className="flex flex-col sm:flex-row  max-w-sm sm:max-w-md md:mx-0 mt-5">
@@ -116,12 +156,7 @@ function HeroHome() {
   </a>*/}
               </div>
 
-              {/* Modal */}
-              <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
-                <div className="relative pb-9/16">
-                  <iframe className="absolute w-full h-full" src="https://player.vimeo.com/video/174002812" title="Video" allowFullScreen></iframe>
-                </div>
-              </Modal>
+              
 
             </div>
 

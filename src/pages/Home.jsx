@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 
 import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
@@ -15,6 +15,26 @@ import Cta from '../partials/Cta';
 import Footer from '../partials/Footer';
 
 function Home() {
+  const [windowSize, setWindowSize] = useState(getWindowSize());
+
+  useEffect(() => {
+    function handleWindowResize() {
+      setWindowSize(getWindowSize());
+      console.log(windowSize)
+    }
+
+    window.addEventListener('resize', handleWindowResize);
+
+    return () => {
+      window.removeEventListener('resize', handleWindowResize);
+    };
+  }, []);
+
+  function getWindowSize() {
+    const {innerWidth, innerHeight} = window;
+    return {innerWidth, innerHeight};
+  }
+
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 
@@ -31,8 +51,16 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <Stats />
-        <Carousel />
+        <div className="invisible absolute md:visible md:relative">
+          <Stats />
+        </div>
+
+    
+        
+        <div >
+          <Carousel />
+        </div>
+        
         {/*<Tabs />*/}
         {/*<Process />*/}
         {/*<PricingTables />*/}
