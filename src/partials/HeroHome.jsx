@@ -45,45 +45,68 @@ function HeroHome() {
               <div className='flex'>
                 
                 <div className="mr-2">
+                  <TypeAnimation
+                    sequence={[
+                      'I ', // Types 'One'
+                      
+                    () => {
+                      console.log('Done typing!'); // Place optional callbacks anywhere in the array
+                    }
+                    ]}
+                    cursor={false}
+                    style={{ fontSize: '2em' }}
                   
-               
-                <TypeAnimation
-                  sequence={[
-                    'I ', // Types 'One'
-                    
-                  () => {
-                    console.log('Done typing!'); // Place optional callbacks anywhere in the array
-                  }
-                  ]}
-                  cursor={false}
-                  style={{ fontSize: '2em' }}
-                 
-                />
-                 </div>
-                <TypeAnimation
-              
-                  sequence={[
-                    ' am a web developer.', // Types 'One'
-                    1000, // Waits 1s
-                    ' am a mobile developer.', // Deletes 'One' and types 'Two'
-                    2000, // Waits 2s
-                    ' am a software developer.', // Types 'Three' without deleting 'Two'
-                    2000, // Waits 2s
-                    ' do backend.', // Types 'Three' without deleting 'Two'
-                    2000, // Waits 2s
-                    ' do frontend.', // Types 'Three' without deleting 'Two'
-                    2000, // Waits 2s
-                    ' am awsome!', // Types 'Three' without deleting 'Two'
-                    2000, // Waits 2s
-                  () => {
-                    console.log('Done typing!'); // Place optional callbacks anywhere in the array
-                  }
-                  ]}
-                  wrapper="div"
-                  cursor={true}
-                  repeat={Infinity}
-                  style={{ fontSize: '2em' }}
-                />
+                  />
+                </div>
+                <div className="invisible absolute md:visible md:relative">
+                  <TypeAnimation
+                
+                    sequence={[
+                      ' am a web developer.', // Types 'One'
+                      1000, // Waits 1s
+                      ' am a mobile developer.', // Deletes 'One' and types 'Two'
+                      2000, // Waits 2s
+                      ' am a software developer.', // Types 'Three' without deleting 'Two'
+                      2000, // Waits 2s
+                      ' do backend.', // Types 'Three' without deleting 'Two'
+                      2000, // Waits 2s
+                      ' do frontend.', // Types 'Three' without deleting 'Two'
+                      2000, // Waits 2s
+                      ' am awsome!', // Types 'Three' without deleting 'Two'
+                      2000, // Waits 2s
+                    () => {
+                      console.log('Done typing!'); // Place optional callbacks anywhere in the array
+                    }
+                    ]}
+                    wrapper="div"
+                    cursor={true}
+                    repeat={Infinity}
+                    style={{ fontSize: '2em' }}
+                  />
+                </div>
+
+                <div className="visible relative md:invisible md:absolute">
+                  <TypeAnimation
+                
+                    sequence={[
+                      ' am a web developer.', // Types 'One'
+                      1000, // Waits 1s
+                      ' do backend.', // Types 'Three' without deleting 'Two'
+                      2000, // Waits 2s
+                      ' do frontend.', // Types 'Three' without deleting 'Two'
+                      2000, // Waits 2s
+                      ' am awsome!', // Types 'Three' without deleting 'Two'
+                      2000, // Waits 2s
+                    () => {
+                      console.log('Done typing!'); // Place optional callbacks anywhere in the array
+                    }
+                    ]}
+                    wrapper="div"
+                    cursor={true}
+                    repeat={Infinity}
+                    style={{ fontSize: '2em' }}
+                  />
+                </div>
               </div>
               {/* CTA form */}
               
