@@ -17,24 +17,8 @@ function FeaturesAnimation({type, skills}) {
           <div className="max-w-3xl mx-auto">
             <div className="relative flex justify-center items-center overflow-hidden mb-20">
 
-              {/* Big circle behind: light layout */}
-              <svg className="dark:hidden" >
-                <defs>
-                
-                </defs>
-                <g fill="none" fillRule="evenodd">
-                 
-                  
-                </g>
-              </svg>
-
-              {/* Big circle behind: dark layout */}
-              <svg className="hidden dark:block mb-10"  >
-                <defs>
-                
-                </defs>
-                <circle cx="216" cy="216" r="216" fill="url(#circleill_a)" fillRule="evenodd" />
-              </svg>
+              
+             
 
               {/* Moving tags */}
               <div className="absolute inset-0">
@@ -106,8 +90,7 @@ function FeaturesAnimation({type, skills}) {
                 <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#logo_b)" />
               </svg>*/}
               {/* Side gradients */}
-              <div className="absolute top-0 bottom-0 left-0 w-20 bg-gradient-to-r from-white dark:from-gray-900" aria-hidden="true"></div>
-              <div className="absolute top-0 bottom-0 right-0 w-20 bg-gradient-to-l from-white dark:from-gray-900" aria-hidden="true"></div>
+             
             </div>
           </div>
 
