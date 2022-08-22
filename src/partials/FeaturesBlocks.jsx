@@ -118,7 +118,7 @@ function FeaturesBlocks() {
 
         </div>
       </div>
-      <div className="invisible absolute sm:visible">
+      <div className="invisible  sm:visible">
         <FeaturesAnimation type={skillType} skills={skills}/>
       </div>
       
