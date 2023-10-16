@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from 'react';
-
 import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
 import HeroHome from '../partials/HeroHome';
 import Stats from '../partials/Stats';
 import Carousel from '../partials/Carousel';
+import ProjectDisplay from '../partials/ProjectDisplay';
 import Tabs from '../partials/Tabs';
 import Process from '../partials/Process';
 import PricingTables from '../partials/PricingTables';
@@ -51,21 +51,22 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <div className="invisible absolute md:visible md:relative">
+        {/*<div className="invisible absolute md:visible md:relative">
           <Stats />
-        </div>
+  </div>*/}
 
-    
+        <ProjectDisplay />
         
-        <div >
+        {/*<div >
           <Carousel />
-        </div>
+        </div>*/}
         
         {/*<Tabs />*/}
         {/*<Process />*/}
         {/*<PricingTables />*/}
         {/*<TestimonialsBlocks />*/}
         <FeaturesBlocks />
+
         {/*<FeaturesAnimation />*/}
         {/*<Cta />*/}
 

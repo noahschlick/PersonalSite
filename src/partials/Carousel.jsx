@@ -77,7 +77,7 @@ function Carousel() {
               <img className="transition-opacity duration-300" src={membotImg} width="540" height="460" alt="Carousel item 03" />
               <div className="absolute inset-0 flex flex-col transition-opacity duration-300 translate-z-0">
                 <div className="flex grow">
-                  <a className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center" href="https://www.membot.net/">View Page</a>
+                  <a className="inline-flex btn-sm text-white bg-teal-500 hover:bg-teal-400 mx-auto self-center" href="https://simon-nu.vercel.app/">View Page</a>
                 </div>
               </div>
             </div>
