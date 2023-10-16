@@ -13,6 +13,8 @@ function FeaturesBlocks() {
     soft: ['Comunication', 'Leadership', 'Problem Solving', 'Perseverence', 'Sharp Memory', 'Comunication', 'Leadership', 'Problem Solving']
   }
 
+  
+
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -48,6 +50,8 @@ function FeaturesBlocks() {
               : <></>
               }
             </div>
+
+            
 
             {/* 2nd item */}
             <a  className="flex flex-col p-2 group text-white bg-gradient-to-tr from-purple-500 to-purple-400 dark:to-purple-500 shadow-2xl" 
@@ -115,7 +119,7 @@ function FeaturesBlocks() {
               }
             </div>
           </div>
-
+        
         </div>
       </div>
       <div className="invisible  sm:visible">

@@ -23,7 +23,7 @@ function About() {
         {/*  Page sections */}
         <HeroAbout />
         <FeaturesGallery />
-
+        
      
       
 

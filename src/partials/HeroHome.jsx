@@ -7,7 +7,7 @@ import PlayBtn from '../images/play-button.svg';
 import Guy from '../images/MachoMan.png';
 import { DownloadIcon } from '@heroicons/react/solid'
 
-import resume from '../images/Resume.pdf'
+import resume from '../images/Noah_Schlickeisen_Resume.pdf'
 import { TypeAnimation } from 'react-type-animation';
 
 
@@ -139,13 +139,13 @@ function HeroHome() {
                   <svg className="w-3 h-3 fill-current text-teal-400 mr-2 shrink-0" viewBox="0 0 12 12" >
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>UI/UX Designer</span>
+                  <span>Python</span>
                 </li>
                 <li className="flex items-center mb-2">
                   <svg className="w-3 h-3 fill-current text-teal-400 mr-2 shrink-0" viewBox="0 0 12 12" >
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>Free Lancer</span>
+                  <span>React</span>
                 </li>
               </ul>
             </div>
