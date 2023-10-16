@@ -108,6 +108,16 @@ function ProjectDisplay() {
                 dark: "dark:to-teal-500"
             },
             link: "https://shroomspy.com/"
+        },
+        {
+            name: "Stoic Chat Bot",
+            icon: <CodeIcon className="w-10"/>,
+            color: {
+                from: "from-teal-500", 
+                to: "to-teal-400",
+                dark: "dark:to-teal-500"
+            },
+            link: "https://github.com/noahschlick/StoicChatbotAPI"
         }
     ]
 
