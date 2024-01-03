@@ -63,29 +63,19 @@ function ProjectDisplay() {
             name: "Tic Tac Toe (C++)",
             icon: <CodeIcon className="w-10"/>,
             color: {
-                from: "from-pink-500", 
-                to: "to-pink-400", 
-                dark: "dark:to-pink-500"
+                from: "from-teal-500", 
+                to: "to-teal-400",
+                dark: "dark:to-teal-500"
             },
             link: "https://github.com/noahschlick/TicTacToe-Player"
-        },
-        {
-            name: "Github Account",
-            icon: <CodeIcon className="w-10"/>,
-            color: {
-                from: "from-pink-500", 
-                to: "to-pink-400", 
-                dark: "dark:to-pink-500"
-            },
-            link: "https://github.com/noahschlick"
         },
         {
             name: "LoopString Blog (React)",
             icon: <CodeIcon className="w-10"/>,
             color: {
-                from: "from-purple-500", 
-                to: "to-purple-400", 
-                dark: "dark:to-purple-500"
+                from: "from-teal-500", 
+                to: "to-teal-400",
+                dark: "dark:to-teal-500"
             },
             link: "https://blog.loopstring.io/"
         },
@@ -93,9 +83,9 @@ function ProjectDisplay() {
             name: "LoopString Forum (React)",
             icon: <CodeIcon className="w-10"/>,
             color: {
-                from: "from-indigo-500", 
-                to: "to-indigo-400", 
-                dark: "dark:to-indigo-500"
+                from: "from-purple-500", 
+                to: "to-purple-400", 
+                dark: "dark:to-purple-500"
             },
             link: "https://forum.loopstring.io/"
         },
@@ -103,9 +93,9 @@ function ProjectDisplay() {
             name: "ShroomSpy Website (React)",
             icon: <CodeIcon className="w-10"/>,
             color: {
-                from: "from-teal-500", 
-                to: "to-teal-400",
-                dark: "dark:to-teal-500"
+                from: "from-indigo-500", 
+                to: "to-indigo-400", 
+                dark: "dark:to-indigo-500"
             },
             link: "https://shroomspy.com/"
         },
@@ -113,12 +103,52 @@ function ProjectDisplay() {
             name: "Stoic Chat Bot (Python)",
             icon: <CodeIcon className="w-10"/>,
             color: {
+                from: "from-pink-500", 
+                to: "to-pink-400", 
+                dark: "dark:to-pink-500"
+            },
+            link: "https://github.com/noahschlick/StoicChatbotAPI"
+        },
+        {
+            name: "Cardio Vascular Diagnosis (C++)",
+            icon: <CodeIcon className="w-10"/>,
+            color: {
+                from: "from-pink-500", 
+                to: "to-pink-400", 
+                dark: "dark:to-pink-500"
+            },
+            link: "https://github.com/noahschlick/CardioVascularDiagnosis"
+        },
+        {
+            name: "Group Chat Display (Java)",
+            icon: <CodeIcon className="w-10"/>,
+            color: {
+                from: "from-indigo-500", 
+                to: "to-indigo-400", 
+                dark: "dark:to-indigo-500"
+            },
+            link: "https://github.com/noahschlick/Chat-Display"
+        },
+        {
+            name: "John Conways GOF (Java)",
+            icon: <CodeIcon className="w-10"/>,
+            color: {
+                from: "from-purple-500", 
+                to: "to-purple-400", 
+                dark: "dark:to-purple-500"
+            },
+            link: "https://github.com/noahschlick/John-Conways-game-of-life"
+        },
+        {
+            name: "Github Account",
+            icon: <CodeIcon className="w-10"/>,
+            color: {
                 from: "from-teal-500", 
                 to: "to-teal-400",
                 dark: "dark:to-teal-500"
             },
-            link: "https://github.com/noahschlick/StoicChatbotAPI"
-        }
+            link: "https://github.com/noahschlick"
+        },
     ]
 
 
