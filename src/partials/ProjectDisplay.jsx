@@ -29,17 +29,17 @@ function ProjectDisplay() {
 
     const projects = [
         {
-            name: "Spotify Clone",
+            name: "Fluthered App (Swift)",
             icon: <CodeIcon className="w-10"/>,
             color: {
-                from: "from-teal-500", 
-                to: "to-teal-400",
-                dark: "dark:to-teal-500"
+                from: "from-pink-500", 
+                to: "to-pink-400", 
+                dark: "dark:to-pink-500"
             },
-            link: "https://spotify-clone-drab-theta.vercel.app/"
+            link: "https://www.fluthered.co/"
         },
         {
-            name: "Reddit Clone",
+            name: "Reddit Clone (React)",
             icon: <CodeIcon className="w-10"/>,
             color: {
                 from: "from-indigo-500", 
@@ -49,7 +49,7 @@ function ProjectDisplay() {
             link: "https://reddit-clone-henna.vercel.app/"
         },
         {
-            name: "Simon",
+            name: "Simon (React)",
             icon: <CodeIcon className="w-10"/>,
             color: {
                 from: "from-purple-500", 
@@ -60,7 +60,7 @@ function ProjectDisplay() {
         },
 
         {
-            name: "Tic Tac Toe",
+            name: "Tic Tac Toe (C++)",
             icon: <CodeIcon className="w-10"/>,
             color: {
                 from: "from-pink-500", 
@@ -80,7 +80,7 @@ function ProjectDisplay() {
             link: "https://github.com/noahschlick"
         },
         {
-            name: "LoopString Blog",
+            name: "LoopString Blog (React)",
             icon: <CodeIcon className="w-10"/>,
             color: {
                 from: "from-purple-500", 
@@ -90,7 +90,7 @@ function ProjectDisplay() {
             link: "https://blog.loopstring.io/"
         },
         {
-            name: "LoopString Forum",
+            name: "LoopString Forum (React)",
             icon: <CodeIcon className="w-10"/>,
             color: {
                 from: "from-indigo-500", 
@@ -100,7 +100,7 @@ function ProjectDisplay() {
             link: "https://forum.loopstring.io/"
         },
         {
-            name: "ShroomSpy Website",
+            name: "ShroomSpy Website (React)",
             icon: <CodeIcon className="w-10"/>,
             color: {
                 from: "from-teal-500", 
@@ -110,7 +110,7 @@ function ProjectDisplay() {
             link: "https://shroomspy.com/"
         },
         {
-            name: "Stoic Chat Bot",
+            name: "Stoic Chat Bot (Python)",
             icon: <CodeIcon className="w-10"/>,
             color: {
                 from: "from-teal-500", 
